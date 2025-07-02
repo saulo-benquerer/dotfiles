@@ -1,0 +1,22 @@
+#!/bin/sh
+
+# easier to read disk
+alias df='df -h'     # human-readable sizes
+alias free='free -m' # show sizes in MB
+
+case "$(uname -s)" in
+Darwin)
+	colorflag="-G"
+	;;
+Linux)
+    colorflag="--color=auto"
+    ;;
+esac
+
+# Colorize grep output (good for log files)
+alias grep='grep ${colorflag}'
+alias egrep='egrep ${colorflag}'
+alias fgrep='fgrep ${colorflag}'
+
+# Colorize ls
+alias ls="ls ${colorflag}"
