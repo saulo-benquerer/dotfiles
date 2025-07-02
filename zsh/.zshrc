@@ -41,7 +41,6 @@ zsh_add_plugin "zsh-users/zsh-syntax-highlighting"
 
 # Environment variables set everywhere
 export EDITOR="nvim"
-export TERMINAL="konsole"
 export BROWSER="brave"
 
 # For more plugins: https://github.com/unixorn/awesome-zsh-plugins

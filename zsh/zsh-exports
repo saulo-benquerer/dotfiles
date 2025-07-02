@@ -4,4 +4,4 @@ HISTFILE=~/.zsh_history
 HISTSIZE=1000000
 SAVEHIST=1000000
 export PATH="$HOME/.local/bin":$PATH
-export PATH=$PATH:~/.platformio/penv/bin
+#export PATH=$PATH:~/.platformio/penv/bin
